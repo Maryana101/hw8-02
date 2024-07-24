@@ -4,17 +4,17 @@
 
 Все задания были выполнены на виртуальной машине c CentOS 7 из предыдущего  ДЗ (Подъём инфраструктуры в Yandex Cloud).
 
-На ВМ был установлен jenkins и проведены тесты и сборки проекта go test . и docker build .
+На ВМ был установлен jenkins и проведены тесты и сборки проекта на go.
 
-Настройки проекта (Freestyle Project) Jenkins:
+Ниже настройки проекта Freestyle Project Jenkins:
 
-указана ссылка на гитхаб с проектом
+ - указана ссылка на гитхаб с проектом
 ![](./img/4_proj_propetries.png)
 
-и команды shell
+ - и команды shell
 ![](./img/5_proj_propetries.png)
 
-в nexus был создан репозиторий:
+ - в nexus был создан репозиторий:
 ![](./img/6_nexus_propetries.png)
 
 
@@ -48,7 +48,7 @@
 
 ![](./img/12_jenkins_build.png)
 
-В репозиторий nexus загрузился файл:
+В репозиторий nexus был загружен файл:
 ![](./img/13_nexus_raw_repo.png)
 
 
